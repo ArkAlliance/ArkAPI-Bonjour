@@ -2,7 +2,6 @@ import mdiGithub from "@iconify/icons-mdi/github";
 import { Icon } from "@iconify/react";
 import { motion } from "framer-motion";
 import { ReactNode } from "react";
-import "./App.css";
 
 function NoLineBreak({ children }: { children: ReactNode }) {
   return <span className="whitespace-nowrap">{children}</span>;
